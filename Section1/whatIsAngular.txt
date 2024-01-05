@@ -1,2 +1,11 @@
-What is Angular?
+lesson 1-
+
+^What is Angular?
+
+Angular is a JavaScript Framework which allows you to create reactive Single-page-Applications (SPAs).
+
+You can navigate around but the page never changes and if we need some data we'll load that in the background 
+so the user has a seemless experience of everything happening instantly.
+
+^Understanding Angular Versioning
 
