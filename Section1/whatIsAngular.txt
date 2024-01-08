@@ -1,4 +1,4 @@
-lesson 1-
+lesson 1-7
 
 ^What is Angular?
 
@@ -15,4 +15,77 @@ Angular 2
 Angular 4
     Releases major version 
 Angular 12
-    backward compatible changes         
+    backward compatible changes       
+
+A lot of problems are solved by making sure you're using the latest version of NodeJS, npm and the CLI itself.
+
+Updating NodeJS:
+
+Go to nodejs.org and download the latest version - uninstall (all) installed versions on your machine first.
+
+Updating npm:
+
+Run [sudo] npm install -g npm  (sudo  is only required on Mac/ Linux)
+
+Updating the CLI
+
+[sudo] npm uninstall -g angular-cli @angular/cli 
+
+npm cache verify 
+
+[sudo] npm install -g @angular/cli 
+
+Here are some common issues & solutions:
+
+Creation of a new project takes forever (longer than 3 minutes)
+That happens on Windows from time to time => Try running the command line as administrator
+
+You get an EADDR error (Address already in use)
+You might already have another ng serve process running - make sure to quit that or use ng serve --port ANOTHERPORT  to serve your project on a new port
+
+we can quit the server or run multiple servers on different ports 
+
+My changes are not reflected in the browser (App is not compiling)
+Check if the window running ng serve  displays an error. If that's not the case, make sure you're using the latest CLI version and try restarting your CLI
+
+ng new my-first-app --no-strict --standalone false --routing false   << to create the angular app
+
+by adding keywords with dashes we are disabling certain features which are not required for the basics
+
+cd my-first--app to navigate to the folder
+
+ng serve  << will open up a development server on a port
+should not quit by pressing ctrl+c as we can do in React 
+we should keep the server running as long as we are working on the code
+
+Detects changes and automatically reloads 
+
+while inspecting the page it will show the index html which has dynamically injected script code 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
