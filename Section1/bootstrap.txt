@@ -1,0 +1,3 @@
+command to add bootstrap to a project
+
+npm install --save bootstrap@3

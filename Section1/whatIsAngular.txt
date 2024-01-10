@@ -1,4 +1,4 @@
-lesson 1-8
+lesson 1-7
 
 ^What is Angular?
 
@@ -79,28 +79,21 @@ Optimization & ngModules - optimization and manage modules
 Deployment - deploying our app from local machine to the internet
 Animations & Testing along with real world project.
 
+>> video 9 - 11
 
+TypeScript
 
+superset to JavaScript offers more features like classes interfaces with strong
+typing 
+whereas in Vanilla javaScript there's dynamic type where a string can be converted to number
+So in conclusion TypeScript helps us write more robust code where the code is checked at the time
+we write it not when we run it
 
+TS - TypeScript
 
+TS is doesn't run in the browser it is compiled to javaScript and then run into the browser
+this is handled by the CLI
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[x]
 
 
