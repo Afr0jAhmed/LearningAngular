@@ -1,4 +1,4 @@
-lesson 1-7
+lesson 1-8
 
 ^What is Angular?
 
@@ -62,7 +62,22 @@ Detects changes and automatically reloads
 
 while inspecting the page it will show the index html which has dynamically injected script code 
 
+>> video 8 
 
+Course Structure:
+The basics - what are components? what are two-way databinding and how the files in the app are connected to each other
+Components & databinding - app are build with the help of components and how it manipulates the DOM and user events 
+Directives - helpers and instructions that you can write which will do some action at runtime
+Services & Dependency injection - core feature that helps different pieces in your app communicate with each other, centralized code and manage the state of the Applications
+Routing - Everything happens on one page but now we route it to different URLs which will look like we are switching pages but we will still be on a single page
+Observables - concept which allows to manage Asynchronous code
+Forms - Handling user inputs
+Pipes - helps in transforming the output
+Http - what if you need to connect to a web server or a database
+Authentication - what does it mean and how it works
+Optimization & ngModules - optimization and manage modules
+Deployment - deploying our app from local machine to the internet
+Animations & Testing along with real world project.
 
 
 
