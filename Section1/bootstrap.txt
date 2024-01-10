@@ -1,3 +1,6 @@
 command to add bootstrap to a project
 
 npm install --save bootstrap@3
+
+All the course code will only work if you are NOT using "strict mode" see the "First App" lecture in this module. Strict mode forces you to write more verbose code in some places (especially when it comes to class properties). If you enabled it by accident, you can also disable it by setting strict: false in your tsconfig.json file.
+

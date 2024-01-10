@@ -94,6 +94,9 @@ TS - TypeScript
 TS is doesn't run in the browser it is compiled to javaScript and then run into the browser
 this is handled by the CLI
 
+>>video 12 
+adding bootstrap in the angular app
+
 [x]
 
 
