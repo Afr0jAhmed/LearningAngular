@@ -40,3 +40,4 @@ Should You Use Standalone Components
 Standalone components can reduce the amount of boilerplate code you have to write - after all, you don't have to add and manage those extra @NgModules anymore.
 
 
+[x]
