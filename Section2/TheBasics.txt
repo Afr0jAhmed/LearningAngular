@@ -2,3 +2,41 @@ Creating new components along with bootstrap that was created in the previous mo
 
 <h3>I'm in the App component</h3>
 
+Working with Standalone Components
+
+Depending on the Angular version your project is using, you can also build Components in a different way: As "Standalone Components".
+
+The main idea behind Standalone Components is that you can build Angular components & apps without (or with less) @NgModules - i.e., Standalone Components allow you to write less (boilerplate) code.
+
+How Are Standalone Components Built?
+You build a standalone component by adding the standalone: true property/value pair to the @Component decorator.
+
+Like this:
+
+@Component({
+  standalone: true,
+  selector: 'app-cmp',
+  template: '<h1>I work standalone!</h1>'
+})
+export class SomeComponent {}
+Such components then don't have to (and shouldn't be) added to any @NgModule.
+
+Therefore, if you only work with such components, no @NgModule is needed at all.
+
+To "tell Angular" which features should be available in a Standalone Component (e.g., which other component selectors can be used there), you have to add the special imports property to the @Component selector.
+
+Like this:
+
+@Component({
+  standalone: true,
+  selector: 'app-cmp',
+  template: '<app-some-other-component />',
+  imports: [SomeOtherComponent]
+})
+export class SomeComponent {}
+But again, you'll learn more about this later in the course, in a dedicated section.
+
+Should You Use Standalone Components
+Standalone components can reduce the amount of boilerplate code you have to write - after all, you don't have to add and manage those extra @NgModules anymore.
+
+
