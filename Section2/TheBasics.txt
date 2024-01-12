@@ -1,0 +1,4 @@
+Creating new components along with bootstrap that was created in the previous module
+
+<h3>I'm in the App component</h3>
+
