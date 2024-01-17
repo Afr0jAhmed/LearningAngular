@@ -4,6 +4,26 @@ Creating new components along with bootstrap that was created in the previous mo
 
 Working with Standalone Components
 
+^video 14- 17
+We start from 
+main.ts which has the bootstrapModule(AppModule) having an import of AppModule coming from 
+app.module.ts has @ngModule inside we have bootstrap enwrapping Appcomponent which comprises of 
+(passed module as an argument)
+[
+  app.component.css 
+  app.component.html 
+  app.component.spec.ts 
+  app.component.ts - selector: 'app-root'
+]
+index.html has the app-root and thus knows to render the contents of the app.component.html 
+
+App component or root component
+
+^inside folder server
+we need to add something which will tell us that server.component.ts is not a normal typeScript class but its actually a component
+which is done by adding a special decorator - enchances the classes or elements in your code
+@component 
+
 Depending on the Angular version your project is using, you can also build Components in a different way: As "Standalone Components".
 
 The main idea behind Standalone Components is that you can build Angular components & apps without (or with less) @NgModules - i.e., Standalone Components allow you to write less (boilerplate) code.
@@ -38,6 +58,10 @@ But again, you'll learn more about this later in the course, in a dedicated sect
 
 Should You Use Standalone Components
 Standalone components can reduce the amount of boilerplate code you have to write - after all, you don't have to add and manage those extra @NgModules anymore.
+
+
+
+
 
 
 [x]
