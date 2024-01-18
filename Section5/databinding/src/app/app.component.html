@@ -1,1 +1,10 @@
-<h2>Components and Databinding</h2>
+<div class="container">
+  <hr />
+  <div class="row">
+    <div class="col-xs-12">
+      <app-server-element
+        *ngfor="let serverElement of serverElements"
+      ></app-server-element>
+    </div>
+  </div>
+</div>
