@@ -79,8 +79,12 @@ That being said, many Angular projects (especially big, established projects) st
 
 That's also the reason for why this course - at the moment - uses @NgModules as a default and covers Standalone Components in a separate section.
 
+^video22
+Instead of using an external html file we can also use inline template by simply changing the templateURL to template and then writing the html code inside "" or ``
+this is useful when we have 2-3 lines of code to keep everything together in the typeScript file
+but if its more than than it is recommended to use the external HTML file
 
-
+^video23
 
 
 
