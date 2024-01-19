@@ -1,3 +1,29 @@
 Understanding Components and Databinding 
 
 ng g c server-element : command to create a new component within the app from the command line interface
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[x]
