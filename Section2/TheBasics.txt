@@ -84,7 +84,14 @@ Instead of using an external html file we can also use inline template by simply
 this is useful when we have 2-3 lines of code to keep everything together in the typeScript file
 but if its more than than it is recommended to use the external HTML file
 
-^video23
+^video24
+styles >  done
+
+
+
+
+
+
 
 
 
