@@ -1,7 +1,10 @@
 Building and using a dropdown directive
 
+selector: '[appDropdown]'
 
+DropdownDirective is to be added in app module ts file
 
+making the dropdown selection functional
 
 If you want that a dropdown can also be closed by a click anywhere outside (which also means that a click on one dropdown closes any other one, btw.), replace the code of dropdown.directive.ts by this one (placing the listener not on the dropdown, but on the document):
 
