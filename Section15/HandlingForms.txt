@@ -1,0 +1,13 @@
+Handle forms in Angular Apps
+
+Angular provides two different approaches to handling user input through forms: reactive and template-driven. Both capture user input events from the view, validate the user input, create a form model and data model to update, and provide a way to track changes.
+
+https://angular.io/guide/forms-overview
+
+Two Approaches >
+Template driven Vs Reactive 
+
+Angular infers the Form object from the DOM
+Form is created programmatically and synced with the DOM
+
+video190
