@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { StoreModule } from '@ngrx/store';
+import { ActionReducerMap, StoreModule } from '@ngrx/store';
 
 import { AppComponent } from './app.component';
 import { CounterOutputComponent } from './counter-output/counter-output.component';
@@ -16,7 +16,7 @@ import { counterReducer } from './store/counter.reducer';
   imports: [BrowserModule, StoreModule.forRoot({
     counter: counterReducer,
     // auth: authReducer
-  }), StoreModule.forRoot({}, {})],
+  })],
   providers: [],
   bootstrap: [AppComponent],
 })
