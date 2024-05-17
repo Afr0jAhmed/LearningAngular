@@ -26,8 +26,12 @@ type Person = {
   name: string;
   age: number;
 };
+//added by TypeScript 
 
 let person: Person;
+
+//default type is any - which means anything is allowed
+
 
 person = {
   name: 'Max',
@@ -43,6 +47,7 @@ let people: Person[];
 // Type inference
 
 let course: string | number = 'React - The Complete Guide';
+//Union types string | number
 
 course = 12341;
 
