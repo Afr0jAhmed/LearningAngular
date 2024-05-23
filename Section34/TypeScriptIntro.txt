@@ -18,3 +18,5 @@ will check for errors in the file
 by default typeScript tries to infer as many types as possible 
 even without them being defined 
 
+official TypeScript documentation
+https://www.typescriptlang.org/

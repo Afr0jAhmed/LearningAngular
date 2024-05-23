@@ -56,10 +56,13 @@ course = 12341;
 function addNumbers(a: number, b: number) {
   return a + b;
 }
+//addNumbers(a: number, b: number): number > infered return type
 
 function printOutput(value: any) {
   console.log(value);
 }
+//function does not have return value hence void
+// printOutput(value: any): void
 
 // Generics
 
@@ -103,12 +106,15 @@ student.enrol('React');
 
 // student.courses => Angular, React
 
+
 interface Human {
   firstName: string;
   age: number;
 
   greet: () => void;
 }
+
+//alternate to type in line no 25
 
 let max: Human;
 
