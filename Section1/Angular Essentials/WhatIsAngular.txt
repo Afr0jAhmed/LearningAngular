@@ -1,0 +1,11 @@
+Angular is a frontend javaScript framework
+It helps with building interactive, modern web user interfaces
+
+why would you use angular?
+why a framework?
+Simplifies the process of building complex,  interactive web user interfaces
+
+> Write Declarative Code
+In Vanilla js 
+you have to write step-by-step instructions
+
