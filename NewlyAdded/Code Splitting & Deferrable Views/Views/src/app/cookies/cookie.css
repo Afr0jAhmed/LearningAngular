@@ -1,0 +1,89 @@
+#cookieConsentPopup {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark text */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    margin: 16px; /* Spacing from the edges */
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    transform: translateY(100%); /* Hide initially */
+    opacity: 0; /* Hide initially */
+}
+
+#cookieConsentPopup.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.cookie-consent-content {
+    margin-bottom: 16px;
+}
+
+.cookie-consent-content a {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.md\\:flex-row {
+    flex-direction: row;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+.gap-12 {
+    gap: 12px;
+}
+
+.cookie-reject-button, .cookie-consent-button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    width: 100%;
+}
+
+.cookie-reject-button {
+    background-color: white;
+    color: #333;
+    border-color: #007bff;
+}
+
+.cookie-reject-button:hover {
+    background-color: #007bff;
+    color: white;
+    border-color: white;
+}
+
+.cookie-consent-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.cookie-consent-button:hover {
+    background-color: #0056b3;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+    #cookieConsentPopup {
+        width: auto;
+    }
+}
